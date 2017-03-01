@@ -1,0 +1,17 @@
+{
+    "name": "satori/middleware-fast-route",
+    "description": "Fast route middleware",
+    "keywords": ["Satori", "Middleware", "Fast route"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuriy Davletshin",
+            "email": "yuriy.davletshin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "satori/http": "dev-master",
+        "nikic/fast-route": "dev-master"
+    }
+}
