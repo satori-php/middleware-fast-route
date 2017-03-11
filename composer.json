@@ -1,7 +1,7 @@
 {
     "name": "satori/middleware-fast-route",
-    "description": "Fast route middleware",
-    "keywords": ["Satori", "Middleware", "Fast route"],
+    "description": "FastRoute middleware",
+    "keywords": ["Satori", "middleware", "router", "FastRoute"],
     "license": "MIT",
     "authors": [
         {
