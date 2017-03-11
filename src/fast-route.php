@@ -1,8 +1,14 @@
 <?php
+
+/**
+ * @author    Yuriy Davletshin <yuriy.davletshin@gmail.com>
+ * @copyright 2017 Yuriy Davletshin
+ * @license   MIT
+ */
+
 declare(strict_types=1);
 
 use Satori\Http\Request;
-
 
 $app['middleware.fast_route'] = function (\Generator $next) use ($app) {
     $app->notify('start_routing');
