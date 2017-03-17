@@ -14,5 +14,10 @@
         "satori/application": "dev-master",
         "satori/http": "dev-master",
         "nikic/fast-route": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "src/fast-route.php"
+        ]
     }
 }
