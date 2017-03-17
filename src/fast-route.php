@@ -18,9 +18,11 @@ use Satori\Http\Request;
  *
  * @param ApplicationInterface  $app   The application.
  * @param string                $id    The unique name of the middleware.
- * @param array<string, string> $names The array with names `['router' => 'router']`.
+ * @param array<string, string> $names
+ *    The array with names `['router' => 'router']`.
  */
-function init(ApplicationInterface $app, string $id, array $names) {
+function init(ApplicationInterface $app, string $id, array $names)
+{
     $app[$id] = function (\Generator $next) use ($app, $names) {
         $app->notify('start_routing');
         $capsule = yield;
